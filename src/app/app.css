@@ -1,0 +1,6 @@
+:host {
+    /* Styles for pushing the footer to the bottom */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,1 @@
+export type Hl7Usage = 'R' | 'RE' | 'O' | 'C' | 'X';

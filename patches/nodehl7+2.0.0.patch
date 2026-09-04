@@ -1,0 +1,13 @@
+diff --git a/node_modules/nodehl7/dist/esm/segments/index.ts b/node_modules/nodehl7/dist/esm/segments/index.ts
+index 2f55b11..693b792 100644
+--- a/node_modules/nodehl7/dist/esm/segments/index.ts
++++ b/node_modules/nodehl7/dist/esm/segments/index.ts
+@@ -81,7 +81,7 @@ import { URDSegmentDef, URDFieldName } from './urd';
+ import { URSSegmentDef, URSFieldName } from './urs';
+ import { VARSegmentDef, VARFieldName } from './var';
+ 
+-export { SegmentInfo } from './types';
++export type { SegmentInfo } from './types';
+ 
+ export const allSegmentDefs: SegmentInfo[] = [
+   ABSSegmentDef,
